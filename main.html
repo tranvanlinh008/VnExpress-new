@@ -5,8 +5,363 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tin tức 24h tại Việt Nam & Thế giới mới nhất [HÔM NAY]</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="lg:p-4 xl:p-0 md:p-4 ">
+        <header>
+            <div class="container mx-auto  flex justify-between items-center xl:max-w-[1100px] xl:py-3 lg:py-0">
+                <div class="flex items-center" >
+                    <span class="pr-3 xl:hidden ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M20 18a1 1 0 0 1 .117 1.993L20 20H4a1 1 0 0 1-.117-1.993L4 18h16Zm0-7a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2h16Zm0-7a1 1 0 1 1 0 2H4a1 1 0 0 1 0-2h16Z"/></g></svg>
+                    </span>
+                    <span class="border-r pr-6 mr-4">
+                        <img src="https://s1.vnecdn.net/vnexpress/restruct/i/v799/v2_2019/pc/graphics/logo.svg" alt="">
+                    </span>
+                    <span class="border-r pr-6 mr-4 lg:hidden xl:block md:hidden">
+                        Thứ hai, 14/8/2023
+                    </span>
+                    <div class="flex gap-2">
+                        <div class="group flex  relative cursor-pointer">
+                           <div class="flex gap-1 group">
+                                <p>Hà Nội </p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30 12L16 24L2 12"/></svg>
+                                <div class=" border shadow-md absolute w-[360px] top-[25px] z-50 bg-white py-[15px] px-[20px] rounded-lg hidden group-hover:block">
+                                    <div>
+                                        <div class="flex items-center border-b justify-between pb-5 ">
+                                            <div class="pt-3">
+                                                <a class="flex items-center" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q.825 0 1.413-.588T14 10q0-.825-.588-1.413T12 8q-.825 0-1.413.588T10 10q0 .825.588 1.413T12 12Zm0 10q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2q.5 0 1 .063t1 .187V6h3v3h2.925q.05.275.063.588T20 10.2q0 2.5-1.988 5.438T12 22Zm6-14V5h-3V3h3V0h2v3h3v2h-3v3h-2Z"/></svg>
+                                                <p class="text-base">Tự động sác định vị trí</p>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="myCheckbox" />
+                                                <label for="myCheckbox">On/Off</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                                <div class="relative">
+                                                    <input  type="text" placeholder="Tìm địa chỉ" class="border border-gray-300 rounded-md py-2 px-4 pl-10 focus:outline-none focus:ring-1 focus:ring-gray-300 focus:border-gray-300 w-full">
+                                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"/></svg>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                          
+                                        <div class="mt-2 ">
+                                            <ul class="overflow-auto h-[200px] ">
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="mt-1  group flex items-center justify-between p-2 hover:bg-gray-200 rounded-xl  hover:cursor-pointer">
+                                                    <a class="py-1" href="#">Hà Nội
+
+                                                    </a>
+                                                    <div class=" hidden group-hover:block ">
+                                                    <div class="flex items-center gap-1">
+                                                            <a class="hover:cursor-pointer bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white gap-1" href="#">
+                                                                <input type="radio" name="" title="12" id="">
+                                                                Chọn mặc định
+                                                            </a>
+                                                            
+                                                            <button class="">
+                                                                    <span class="bg-white rounded-lg p-1 hover:bg-gray-400 flex items-center hover-fill hover:text-white">
+                                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="currentColor" d="M2.984 8.625v.003a.5.5 0 0 1-.612.355c-.431-.114-.355-.611-.355-.611l.018-.062s.026-.084.047-.145a6.7 6.7 0 0 1 1.117-1.982C4.096 5.089 5.605 4 8 4s3.904 1.089 4.802 2.183a6.7 6.7 0 0 1 1.117 1.982a4.077 4.077 0 0 1 .06.187l.003.013v.004l.001.002a.5.5 0 0 1-.966.258l-.001-.004l-.008-.025a4.872 4.872 0 0 0-.2-.52a5.696 5.696 0 0 0-.78-1.263C11.286 5.912 10.044 5 8 5c-2.044 0-3.285.912-4.028 1.817a5.7 5.7 0 0 0-.945 1.674a3.018 3.018 0 0 0-.035.109l-.008.025ZM8 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5ZM6.5 9.5a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0Z"/></svg>
+                                                                        Xem 
+                                                                    </span>
+                                                            </button>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                </li>
+                                                
+                                                
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+                           </div>
+                           
+                        </div>
+                        <span class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 7L6 10.5h3l-2 3"/><path d="M11 8a2.5 2.5 0 1 0-.62-4.92a3.5 3.5 0 0 0-6.76 0A2.5 2.5 0 1 0 3 8h1.5"/></g></svg>
+                            
+                           <span>
+                            30<sup>o</sup>
+                           </span>
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="md:hidden lg:block">
+                    <ul class="flex items-center ">
+                        <li class="pr-6"><a class="flex items-center gap-1" href="#" title="a">
+                            <svg class="fill-red-800" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8s8 3.589 8 8s-3.589 8-8 8z"/><path fill="" d="M13 7h-2v6h6v-2h-4z"/></svg>
+                            <span class="text-red-800">
+                                Mới nhất
+                            </span>
+                            </a>
+                        </li>
+                        <li class="pr-6"><a class="group"  href="#" title="a">
+                            <div class=" flex items-center gap-1 relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="M128 66a38 38 0 1 0 38 38a38 38 0 0 0-38-38Zm0 64a26 26 0 1 1 26-26a26 26 0 0 1-26 26Zm0-112a86.1 86.1 0 0 0-86 86c0 30.91 14.34 63.74 41.47 94.94a252.32 252.32 0 0 0 41.09 38a6 6 0 0 0 6.88 0a252.32 252.32 0 0 0 41.09-38c27.13-31.2 41.47-64 41.47-94.94a86.1 86.1 0 0 0-86-86Zm0 206.51C113 212.93 54 163.62 54 104a74 74 0 0 1 148 0c0 59.62-59 108.93-74 120.51Z"/></svg>
+                                <span>
+                                    Tin tức theo ngày
+                                </span>
+                            </div>
+                            <div class="hidden  group-hover:block absolute flex p-5 border shadow w-[360px] top-10">
+                                <ul>
+                                    <li class="p-3 font-bold text-black">
+                                        Hà Nội
+                                    </li>
+                                    <li class="p-3 font-bold text-black">
+                                        TP Hồ Chí Minh
+                                    </li>
+                                </ul>
+                            </div>
+                            </a>
+                        </li>
+                        <li class="pr-5 border-r mr-4"><a class="flex items-center gap-1" href="#" title="a">
+                            <img class="w-[1.5rem] h-[1.5rem]" src="https://play-lh.googleusercontent.com/6eBVmDIQNXsUd06jK9sRRdUEHsp4oiI7jwFFZq4ccFpY3Jc1nAsRMv0pnH__mYYExak" alt="">
+                            <span>
+                                International
+                            </span>
+                            </a>
+                        </li>
+                        <li class="pr-5"><a class="flex items-center gap-1" href="#" title="a">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32"><path fill="currentColor" d="m29 27.586l-7.552-7.552a11.018 11.018 0 1 0-1.414 1.414L27.586 29ZM4 13a9 9 0 1 1 9 9a9.01 9.01 0 0 1-9-9Z"/></svg>
+                            <input class="hidden" type="search"  title="a" name="" id="">
+                            </a>
+                        </li>
+                        <li class="pr-5"><a class="flex items-center gap-3 hover:text-blue-500" href="#" title="a">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="6.75" r="2.25"/><path d="M11 13.5a4.5 4.5 0 0 0-8 0"/><path d="M12 10.56a6.25 6.25 0 1 0-9.92 0"/></g></svg>
+                            Đăng nhập
+                            </a>
+                        </li>
+                        <li class="pr-5"><a class="flex items-center gap-1" href="#" title="a">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256"><path fill="currentColor" d="M223.05 69.33a6 6 0 0 1-8.05-2.57a96 96 0 0 0-34.2-37.68a6 6 0 0 1 6.4-10.15a109.26 109.26 0 0 1 38.41 42.31a6 6 0 0 1-2.56 8.09ZM41 66.76a96 96 0 0 1 34.2-37.68a6 6 0 0 0-6.4-10.15a109.26 109.26 0 0 0-38.41 42.31A6 6 0 1 0 41 66.76Zm179 110.18A14 14 0 0 1 208 198h-42.5a38 38 0 0 1-75 0H48a14 14 0 0 1-12.06-21.06C45.13 161.09 50 138.63 50 112a78 78 0 0 1 156 0c0 27 4.74 48.86 14.08 64.94ZM153.29 198h-50.58a26 26 0 0 0 50.58 0Zm56.42-15C199.29 165 194 141.15 194 112a66 66 0 0 0-132 0c0 29.16-5.29 53-15.71 71a2 2 0 0 0 0 2a1.9 1.9 0 0 0 1.7 1H208a1.9 1.9 0 0 0 1.7-1a2 2 0 0 0 .01-2Z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-b">
+
+            </div>
+        </header>
+    </div>
 </body>
 </html>
